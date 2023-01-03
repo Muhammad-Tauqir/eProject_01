@@ -1,0 +1,146 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .contactUs {
+        position: relative;
+        width: 100%;
+        padding: 40px 100px;
+        margin-top: 100px;
+    }
+
+    .contactUs .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+    }
+
+    .contactUs .title h2 {
+        color: #fff;
+        font-weight: 500;
+    }
+
+
+    .form {
+        grid-area: form;
+    }
+
+    .info {
+        grid-area: info;
+    }
+
+    .map {
+        grid-area: map;
+    }
+
+    .contact {
+        padding: 40px;
+        background: #fff;
+        box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+        width: 100%;
+        height: 95%;
+        margin-left: 40%;
+    }
+
+    .contact h3 {
+        color: #fb774b;
+        font-weight: 500;
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    .member-table {
+        border: 1px solid black;
+        width: 350px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    #map {
+        height: 40%;
+      }
+
+    /* form */
+
+    .formBox {
+        position: relative;
+        width: 100%;
+    }
+
+    .formBox .row50 {
+        display: flex;
+        gap: 20px;
+    }
+
+    .inputBox {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .formBox .row100 .inputBox {
+        width: 100%;
+    }
+
+    .inputBox span {
+        color: #fb774b;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .inputBox input {
+        padding: 10px;
+        font-size: 1.1em;
+        outline: none;
+        border: 1px solid #333;
+    }
+
+    .inputBox textarea {
+        padding: 10px;
+        font-size: 1.1em;
+        outline: none;
+        border: 1px solid #333;
+        resize: none;
+        min-height: 220px;
+        margin-bottom: 10px;
+    }
+
+
+    .inputBox ::placeholder {
+        color: #fd9b5a;
+    }
+
+    @media (max-width:480px) {
+
+        .contactUs{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact{
+            width: 440px;
+            height: 100%;
+            margin-left: -60px;
+        }
+
+        .form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #Name , #Contact, #Subject, #Email{
+            width: 170px;
+        }
+
+        #Message{
+            width: 390px;
+        }
+    }
