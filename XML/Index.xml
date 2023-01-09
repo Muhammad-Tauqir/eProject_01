@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Main [
+    <!ELEMENT Main (A:Letter, B:Letter)>
+
+    <!ELEMENT A:Letter (A:To, A:Recipient, A:Address, A:City, A:Recipient, A:Body, A:Thanks, A:Obediently, A:SenderName, A:Date)>
+    <!ELEMENT A:To (#PCDATA)>
+    <!ELEMENT A:Recipient (#PCDATA)>
+    <!ELEMENT A:Address (#PCDATA)>
+    <!ELEMENT A:City (#PCDATA)>
+    <!ELEMENT A:Body (#PCDATA)>
+    <!ELEMENT A:Thanks (#PCDATA)>
+    <!ELEMENT A:Obediently (#PCDATA)>
+    <!ELEMENT A:senderName (#PCDATA)>
+    <!ELEMENT A:Date (#PCDATA)>
+
+    <!ATTLIST Main xmlns:A CDATA #REQUIRED>
+
+    <!ELEMENT B:Letter (B:To, B:Recipient, B:Address, B:City, B:Recipient, B:Body, B:Thanks, B:Obediently, B:SenderName, B:Date)>
+    <!ELEMENT B:To (#PCDATA)>
+    <!ELEMENT B:Recipient (#PCDATA)>
+    <!ELEMENT B:Address (#PCDATA)>
+    <!ELEMENT B:City (#PCDATA)>
+    <!ELEMENT B:Body (#PCDATA)>
+    <!ELEMENT B:Thanks (#PCDATA)>
+    <!ELEMENT B:Obediently (#PCDATA)>
+    <!ELEMENT B:senderName (#PCDATA)>
+    <!ELEMENT B:Date (#PCDATA)>
+
+    <!ATTLIST Main xmlns:B CDATA #REQUIRED>
+
+    <!ATTLIST A:Thanks date CDATA "9/1/2023">
+    <!ATTLIST B:Thanks date CDATA "9/1/2023">
+]>
+<Main xmlns:A="#" xmlns:B="#">
+
+    <A:Letter>
+        <A:To>To</A:To>
+        <A:Recipient>The Principle</A:Recipient>
+        <A:Address>ABC School</A:Address>
+        <A:City>Karachi</A:City>
+        <A:Recipient>The Respected Sir!</A:Recipient>
+        <A:Body>I beg to say that i am a student of class matric in your school. I am suffring from
+            fever sice last night. The doctor recomment that i need rest for two days. Kindly give
+            me leave for 2 days</A:Body>
+        <A:Thanks date="9/1/2023">I shall be very thanksfull to you for this act of kindness. THANK
+            YOU!</A:Thanks>
+        <A:Obediently>Your Obediently</A:Obediently>
+        <A:senderName>Muhammad-Tauqir</A:senderName>
+        <A:Date>1-4-2023</A:Date>
+    </A:Letter>
+    <B:Letter>
+        <B:To>To</B:To>
+        <B:Recipient>The Principle</B:Recipient>
+        <B:Address>ABC School</B:Address>
+        <B:City>Karachi</B:City>
+        <B:Recipient>The Respected Sir!</B:Recipient>
+        <B:Body>I beg to say that i am a student of class matric in your school. I am suffring from
+            fever sice last night. The doctor recomment that i need rest for two days. Kindly give
+            me leave for 2 days</B:Body>
+        <B:Thanks date="9/1/2023">I shall be very thanksfull to you for this act of kindness. THANK
+            YOU!</B:Thanks>
+        <B:Obediently>Your Obediently</B:Obediently>
+        <B:senderName>Muhammad-Tauqir</B:senderName>
+        <B:Date>1-4-2023</B:Date>
+    </B:Letter>
+</Main>
