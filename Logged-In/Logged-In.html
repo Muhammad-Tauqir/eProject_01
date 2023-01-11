@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clear-Reflections</title>
+  <link rel="shortcut icon" href="../img/Logo.png" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- jQuery -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Bootstrap -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../CSS/Index.css">
+</head>
+
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg bg-white py-3 fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../Index.html"><img src="../img/Logo.png" alt="Logo" style="max-width: none;
+        object-fit: contain;
+        height: 5em;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i id="bar" class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../Index.html" style="margin-right: 30px;">Home</a>
+          </li>
+          <li class="nav-item">
+						<a class="nav-link" href="../Shop/Shop.html" style="margin-right: 30px;">Shop</a>
+					</li>
+          <li class="nav-item">
+            <a class="nav-link" href="../About/About.html" style="margin-right: 30px;">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Contact Us/Contact.html" style="margin-right: 30px;">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="..//Search/Search.html"><i class="fa-sharp fa-solid fa-magnifying-glass Nav-icon"
+                style="color: black; margin-bottom: 11px;"></i></a>
+            <i class="fa-solid fa-bag-shopping Nav-icon" style="color: black;" id="cart-icon"></i>
+          </li>
+          <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <!-- Content -->
+            <div class="cart-content">
+
+            </div>
+            <!-- Total -->
+            <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">$0</div>
+            </div>
+            <!-- Buy Button -->
+            <button type="button" class="btn-buy">Buy Now</button>
+            <!-- Cart Close -->
+            <i class='bx bx-x' id="close-cart"></i>
+          </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="Home">
+    <div class="container text-box">
+      <h5 id="Home_Head">NEW ARRIVALS</h5>
+      <h1 id="Auto_New">Best Mirror <span class="auto-input"></span></h1>
+      <p id="Home_P">We offer very comfortable time<br>
+        with us.</p>
+  </section>
+
+  <section class="container">
+    <div class="features">
+      <div class="feature">
+        <i class="fa-thin fa-person-carry-box featureIcon"></i>
+        <span class="featureTitle">FREE SHIPPING</span>
+        <span class="featureDesc">Free worldwide shipping on all orders.</span>
+      </div>
+      <div class="feature">
+        <i class="fa-thin fa-box-circle-check featureIcon"></i>
+        <span class="featureTitle">30 DAYS RETURN</span>
+        <span class="featureDesc">No question return and easy refund in 14 days.</span>
+      </div>
+      <div class="feature">
+        <i class="fa-thin fa-gift-card featureIcon"></i>
+        <span class="featureTitle">GIFT CARDS</span>
+        <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+      </div>
+      <div class="feature">
+        <i class="fa-thin fa-paper-plane featureIcon"></i>
+        <span class="featureTitle">CONTACT US!</span>
+        <span class="featureDesc">Keep in touch via email and support system.</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="featured" class="my-5 py-5 shop">
+    <div class="container text-center mt-5 py-5">
+      <h3>Plane Mirrors</h3>
+      <hr class="mx-auto">
+      <p>For a look at plane mirrors see here.</p>
+    </div>
+    <div class="row mx-auto container-fluid ">
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Mirror_1.jpg" style="height: 230px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">Ornamental Archtop Mirror</h5>
+        <h4 class="price">$125.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Mirror_2.jpg" style="height: 230px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">Early Regency Mirror with Bars</h5>
+        <h4 class="price">$155.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Mirror_3.jpg" style="height: 230px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">George II Mirror with Broken Pediment</h5>
+        <h4 class="price">$125.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Mirror_4.jpg" style="height: 230px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">Decorative Serpentine Mirror</h5>
+        <h4 class="price">$125.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="banner" class="my-5 py-5">
+    <div class="container">
+      <h1 style="color: black;" id="Banner_Head">UPTO 10% OFF<br>
+        On Mirrors</b></h1>
+    </div>
+  </section>
+
+  <section id="clothes" class="my-5">
+    <div class="container text-center mt-5 py-5">
+      <h3>Decoration Mirror</h3>
+      <hr class="mx-auto">
+      <p>Here you can check out our new products with fair price.</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Mirror_5.jpg" style="height: 230px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">French Cushion Mirror</h5>
+        <h4 class="price">$125.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Mirror_6.jpg" style="height: 230px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">Modern Border Mirror</h5>
+        <h4 class="price">$125.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Mirror_1.jpg" style="height: 230px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">Archtop Mirror</h5>
+        <h4 class="price">$125.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Mirror_2.jpg" style="height: 227px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">Mirror with Bars</h5>
+        <h4 class="price">$125.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="watches" class="my-5">
+    <div class="container text-center mt-5 py-5">
+      <h3>Borders</h3>
+      <hr class="mx-auto">
+      <p>Here you can check out our new products with fair price.</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Border_1.jpg" style="height: 230px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">Georgian Parcel Gilt Swept Mirror</h5>
+        <h4 class="price">$125.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Border_2.jpg" style="height: 230px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">Georgian Ribbed Mirror</h5>
+        <h4 class="price">$125.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Border_3.jpg" style="height: 230px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">Louis XV Swept Mirror</h5>
+        <h4 class="price">$125.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3 product-img" src="../img/Border_1.jpg" style="height: 230px;">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <h5 class="product-title">Georgian Parcel Mirror</h5>
+        <h4 class="price">$125.00</h4>
+        <button class="buy-btn add-cart">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="mt-5 py-5">
+    <div class="row container mx-auto pt-5">
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+            <img src="../img/Logo.png" alt="" style="
+            max-width: none;
+            object-fit: contain;
+            height: 6em;">
+            <p class="pt-3" style="text-align: justify;"><b>Clear-Reflections:</b> With exclusive offers, and a vast
+                range of incredible items in stock, you can make your ideas come to life.</p>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+            <h5 class="pb-2">Menu</h5>
+            <ul class="text-uppercase list-unstyled">
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="../Shop/Shop.html">Shop</a></li>
+                <li><a href="../About/About.html">About</a></li>
+                <li><a href="../Contact Us/Contact.html">Contact</a></li>
+                <li><a href="../Search/Search.html">Search</a></li>
+            </ul>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+            <h5 class="pb-2">Contact Us</h5>
+            <div>
+                <h6 class="text-uppercase">Address</h6>
+                <p>Karachi,Pakistan</p>
+            </div>
+            <div>
+                <h6 class="text-uppercase">Phone</h6>
+                <p>+(92) 333-2307496</p>
+            </div>
+            <div>
+                <h6 class="text-uppercase">Email</h6>
+                <p>M.Tauqir2005@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+            <h5 class="pb-2">Location</h5>
+            <div id="map"></div>
+        </div>
+    </div>
+    <div class="copyright mt-5">
+        <div class="row container mx-auto">
+            <div class="col-lg-4 col-md-6 col-12 text-nowrap">
+                <p>Clear-Reflections © 2022. All rights Reserved</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 footer-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+  <!-- footer -->
+
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+  <!-- jQuery -->
+  <script src="../JS/main.js"></script>
+  <script>
+    function initMap() {
+      var uluru = { lat: 24.934, lng: 67.040 };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 8,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+
+    var typed = new Typed(".auto-input" ,{
+    strings: ["Style.", "Fashion.", "Design."],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true,
+  });
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAg272BuCY-f0VDYyrc9O_1OYHXjDThoSQ
+    &callback=initMap"></script>
+</body>
+
+</html>
